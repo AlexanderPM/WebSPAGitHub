@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-family:  'Roboto', 'Helvetica', sans-serif;
+}
+.contener{
+    width: 1000px;
+
+}

@@ -1,0 +1,27 @@
+.repo {
+    border        : solid 2px lightseagreen;
+    margin-bottom : 20px;
+    padding       : 20px;
+    display       : flex;
+    flex-direction: column;
+}
+
+.repo-header {
+    display        : flex;
+    justify-content: space-between;
+    margin-bottom  : 20px;
+    color          : black;
+}
+
+.repo-header-name {
+    font-size  : 1.3em;
+    font-weight: 500;
+}
+
+.repo-last-commit {
+    color: gray;
+}
+
+.repo-link {
+    color: gray;
+}

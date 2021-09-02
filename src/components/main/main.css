@@ -1,0 +1,79 @@
+  .search {
+      display: flex;
+      margin : 20px 0;
+
+  }
+
+  .input-search {
+      padding     : 5px;
+      width       : 100%;
+      border      : solid 2px lightseagreen;
+      margin-right: 10px;
+  }
+
+  .input-search:active {
+      outline       : 0;
+      outline-offset: 0;
+      border        : solid 2px dodgerblue;
+  }
+
+  .input-search:focus {
+      outline       : 0;
+      outline-offset: 0;
+      border        : solid 2px dodgerblue;
+  }
+
+  .input-search:hover {
+      outline       : 0;
+      outline-offset: 0;
+      border        : solid 2px dodgerblue;
+  }
+
+  .search-btn {
+      padding         : 5px;
+      width           : 100px;
+      background-color: mintcream;
+      border          : solid 2px lightseagreen;
+  }
+  .search-btn:hover {
+    background-color:darkturquoise;
+    cursor: pointer;
+}
+
+  .fetchining {
+      width: 50px;
+      height: 50px;
+      border-radius:100%;
+      margin:  20vh auto;
+      border: 3px dashed lightseagreen;
+      animation-name: search-fetching;
+      animation-duration: 1.2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: linear;
+
+  }
+  @keyframes search-fetching {
+      0%{
+transform: rotate(0deg);
+      }
+      100%{
+        transform: rotate(360deg) scale(1.5);
+      }
+
+  }
+  .pages {
+      margin:  20px 0;
+  }
+
+  .page, .current-page{
+      border: 1px solid lightseagreen;
+      border-radius: 100%;
+      padding:  5px 10px;
+      margin: 0 10px;
+      cursor: pointer;
+  }
+  .current-page{
+    border: 2px solid lightseagreen;
+    font-weight: 700;
+}
